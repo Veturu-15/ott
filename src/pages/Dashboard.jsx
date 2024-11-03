@@ -13,7 +13,7 @@ function Dashboard() {
       <img src="https://stat5.bollywoodhungama.in/wp-content/uploads/2023/06/Mahesh-Babu-5.jpg" alt=""  height={"300px"} width={"300px"}/>
     </div></Link>
     <div className='Prabhas'>
-      <h1>Uppalapati Venkata Suryanarayana Prabhas Raju</h1>
+      <h1>Rebel start</h1>
       <img src="https://live.staticflickr.com/3670/9005345962_0aca5e3950_z.jpg" alt="" />
     </div>
     </div>
