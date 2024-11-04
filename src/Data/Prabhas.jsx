@@ -1,4 +1,4 @@
-const prabhasMovies = [
+ export const prabhasMovies = [
     {
       title: "Eeswar",
       year: 2002,

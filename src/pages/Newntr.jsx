@@ -1,14 +1,14 @@
 import React from 'react';
-import { prabhasMovies } from '../Data/Prabhas';
+import { ntrMovies } from '../Data/Ntr';
 import Header from '../Component/Header';
 
-function Pras() {
+function Newntr() {
   return (
-    <div >
+    <div>
       <Header/>
-      <div className="PrabhasMoviesList">
-        {prabhasMovies.map((movie) => (
-          <div key={movie.id} className="movie-card">
+      <div className='ntrmovies'>
+        {ntrMovies.map((movie) => (
+          <div key={movie.id} className='movie-card'>
             <h3>{movie.title}</h3>
             <img src={movie.image} alt={movie.title} />
             <p>Year: {movie.year}</p>
@@ -20,4 +20,4 @@ function Pras() {
   );
 }
 
-export default Pras;
+export default Newntr;

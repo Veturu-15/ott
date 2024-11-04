@@ -1,8 +1,10 @@
 import React from 'react';
 import { MaheshBabuMovies } from '../Data/Maheshbabu';
-
+import Header from '../Component/Header';
 function Maheshmovies() {
   return (
+   <div>
+    <Header/>
     <div className="MaheshBabuMoviesList">
       {MaheshBabuMovies.map((movie, index) => (
         <div key={index} className="movie-card">
@@ -12,6 +14,7 @@ function Maheshmovies() {
           <p>Director: {movie.director}</p>
         </div>
       ))}
+    </div>
     </div>
   );
 }
