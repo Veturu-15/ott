@@ -1,5 +1,5 @@
 import React from 'react';
-import { MaheshBabuMovies } from '../Data/MaheshBabuMovies';
+import { MaheshBabuMovies } from '../Data/Maheshbabu';
 
 function Maheshmovies() {
   return (

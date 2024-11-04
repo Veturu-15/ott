@@ -105,4 +105,15 @@ button {
   width: 200px;
   border: 2px solid black;
 }
-
+.MaheshBabuMoviesList{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    background-color: #1A1A2E;
+    color: white;
+}
+.MaheshBabuMoviesList img{
+  height: 300px;
+  width: 200px;
+  border: 2px solid black;
+}
