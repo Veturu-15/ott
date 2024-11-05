@@ -3,7 +3,6 @@ import { Link } from 'react-router-dom'
 function Dashboard() {
   return (
     <div className='main'> 
-     
   <Link to='/pawankalyana' style={{textDecoration:'none',color:'white'}}>  <div className='powerstar' >
       <h1>power star</h1>
       <img src="https://images.firstpost.com/uploads/2022/09/640363-2022-09-02T104821.363.jpg?im=FitAndFill=(596,336)" alt="" height={"300px"} width={"300px"} />
@@ -24,6 +23,10 @@ function Dashboard() {
       <h1>Natural star</h1>
       <img src="https://w0.peakpx.com/wallpaper/0/493/HD-wallpaper-nani-diwali-natural-star-tollywood.jpg" alt="" />
     </div></Link>
+  
+    <div>
+     
+    </div>
     </div>
   )
 }

@@ -5,15 +5,15 @@ export default function Login() {
   return (
     <div className='login'>
         <div className='inside'>
-           
-      <input type="text" placeholder='enter the user name:' /> 
+           <img src="https://wallpapercat.com/w/full/c/7/d/115480-2560x1440-desktop-hd-netflix-wallpaper-photo.jpg" alt="" style={{height:'300px',width:'300px'}} />
+      <input type="text" placeholder='Enter  user name:' /> 
         <br /> 
-      <input type="Password" placeholder='Enter the password:' />
+      <input type="Password" placeholder='Enter  password:' />
       <br /> 
     <Link to='/home'> <button className='btn btn-warning'>Sign In</button></Link> 
+    <br />
         <p>OR</p>
-        <button>Use a sign-In code</button>
-        <p > Forgot password</p>
+        <p> Forgot password</p>
         
       </div>
     </div>

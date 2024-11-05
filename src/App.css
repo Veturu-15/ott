@@ -117,7 +117,8 @@ body{
 }
 .container-fluid{
   background-color: black;
-  height: 100vh;
+  height: 100%;
+  width: 100%;
 }
 .navbar{
   background-color: white;
@@ -125,6 +126,7 @@ body{
 .Teluguheros{
   background-color: black;
   color: white;
+  height: 100vh
 }
 .Newnani{
   display: flex;
@@ -138,4 +140,65 @@ body{
   height: 300px;
   width: 200px;
   border: 2px solid black;
+}
+.Shah{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 50px;
+  background-color: black;
+  color: white;
+  height: 100%;
+}
+.Shah img{
+  height: 300px;
+  width: 200px;
+  border: 2px solid black;
+}
+.hindi{
+  background-color: black;
+  color: white;
+  height: 100vh
+}
+.Hindi img{
+  height: 300px;
+  width: 200px;
+  border: 2px solid black;
+}
+.Hindi {
+  background-color: black;
+  color: white;
+  height: 100vh;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 250px;
+}
+.amit{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 50px;
+  background-color: black;
+  color: white;
+  height: 100vh; 
+}
+.amit img{
+  height: 300px;
+  width: 200px;
+  border: 2px solid black;
+}
+.saan{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 50px;
+  background-color: black;
+  color: white;
+  height: 100vh;
+}
+.saan img{
+  height: 300px;
+  width: 200px;
+  border: 2px solid black;
+}
+.Carousel img{
+  height: 800px;
+  width: 100%;
 }
