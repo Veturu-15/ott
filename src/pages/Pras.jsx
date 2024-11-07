@@ -13,6 +13,13 @@ function Pras() {
             <img src={movie.image} alt={movie.title} />
             <p>Year: {movie.year}</p>
             <p>Director: {movie.director}</p>
+            {movie.videoUrl && (
+              <p >
+                <a href={movie.videoUrl} target="_blank" rel="noopener noreferrer" style={{textDecoration:'none', color:'white'}}>
+                  Watch the Movie
+                </a>
+              </p>
+            )}
           </div>
         ))}
       </div>

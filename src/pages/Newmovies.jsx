@@ -1,13 +1,13 @@
 import React from 'react';
 import { PawanKalyanMovies } from '../Data/PawanKalyanMovies';
 import Header from '../Component/Header';
-
 function PawanKalyanMoviesList() {
   return (
     <div>
       <Header />
       <div className="PawanKalyanMoviesList">
         {PawanKalyanMovies.map((movie) => (
+          
           <div key={movie.id} className="movie-card">
             <h3>{movie.title}</h3>
             <img src={movie.Image} alt={`Poster of ${movie.title}`} />

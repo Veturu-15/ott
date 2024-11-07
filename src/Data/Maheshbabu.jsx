@@ -10,7 +10,7 @@ export const MaheshBabuMovies = [
     title: "Yuvaraju",
     Image:'https://m.media-amazon.com/images/M/MV5BMTQwNWVlYjctMTEwOC00NDhjLTgwYjMtZjljZWY4ZmUwNDAxXkEyXkFqcGc@._V1_.jpg',
     year: 2000,
-    videourl:'https://www.youtube.com/watch?v=mV6Lg2UCoj0',
+    videoUrl:'https://www.youtube.com/watch?v=mV6Lg2UCoj0',
     director: "Y. V. S. Chowdary"
   },
   {
