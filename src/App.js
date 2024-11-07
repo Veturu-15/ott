@@ -16,6 +16,7 @@ import Amt from './pages/Amt';
 import Salman from './pages/Salman';
 
 
+
 function App() {
   return (
     <div className='Main'>

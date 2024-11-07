@@ -3,7 +3,7 @@ import { PawanKalyanMovies } from '../Data/PawanKalyanMovies';
 import Header from '../Component/Header';
 function PawanKalyanMoviesList() {
   return (
-    <div>
+    <div style={{textDecoration:'none', color:'white'}}>
       <Header />
       <div className="PawanKalyanMoviesList">
         {PawanKalyanMovies.map((movie) => (
