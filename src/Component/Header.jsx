@@ -4,7 +4,7 @@ import { NavLink } from 'react-router-dom';
 
 const Header = () => {
   return (
-    <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
+    <nav className="navbar navbar-expand-lg navbar-dark bg-dark ">
       <div className="container">
         <img
           src="https://cdn-eonmn.nitrocdn.com/wpSZNPxsgkHJeIIFogNkHqAJeeKlNNmX/assets/images/optimized/rev-b5a100c/fellowstudio.com/wp-content/uploads/2023/08/Netflix-Logo-2006-500x333-1.png"

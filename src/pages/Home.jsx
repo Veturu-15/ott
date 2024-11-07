@@ -13,7 +13,7 @@ function Home() {
         <img src="https://sund-images.sunnxt.com/72211/640x360_TholiPrema_72211_1c891803-dd10-4886-b280-684f2d7b05d0.jpg" alt="" />
       </Carousel.Item>
       <Carousel.Item interval={500}>
-       <img src="https://i.pinimg.com/736x/55/2d/c2/552dc2fed15a2f57aa108b5b0e090851.jpg" alt=""  />
+       <img src="https://m.media-amazon.com/images/M/MV5BYWExODZhNWQtMDlmYi00YjMxLTk2YzQtNjRhNmZjMjJiOWMwXkEyXkFqcGc@._V1_QL75_UX480_.jpg" alt=""  />
       </Carousel.Item>
       <Carousel.Item interval={500}>
        <img src="https://m.media-amazon.com/images/M/MV5BMDI2N2M5ZjQtNDM2Yi00NjRlLThjOWEtZTI0NjJkOTdkN2ZlXkEyXkFqcGc@._V1_.jpg" alt="" />

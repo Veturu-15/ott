@@ -7,12 +7,19 @@ function PawanKalyanMoviesList() {
     <div>
       <Header />
       <div className="PawanKalyanMoviesList">
-        {PawanKalyanMovies.map((movie, index) => (
-          <div key={index} className="movie-card">
+        {PawanKalyanMovies.map((movie) => (
+          <div key={movie.id} className="movie-card">
             <h3>{movie.title}</h3>
-            <img src={movie.Image} alt={movie.title} />
+            <img src={movie.Image} alt={`Poster of ${movie.title}`} />
             <p>Year: {movie.year}</p>
             <p>Director: {movie.director}</p>
+            {movie.videoUrl && (
+              <p >
+                <a href={movie.videoUrl} target="_blank" rel="noopener noreferrer" style={{textDecoration:'none', color:'white'}}>
+                  Watch the Movie
+                </a>
+              </p>
+            )}
           </div>
         ))}
       </div>
