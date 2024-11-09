@@ -2,7 +2,7 @@ import React from 'react';
 import './App.css';
 import Login from './pages/Login';
 import Home from './pages/Home';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { HashRouter as Router, Routes, Route } from 'react-router-dom';
 import Newmovies from './pages/Newmovies';
 import Mahesh from './pages/Mahesh';
 import Pras from './pages/Pras';
