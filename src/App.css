@@ -14,7 +14,7 @@
     color: white; 
     padding: 5px;
     border-radius: 8px; 
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); /* Subtle shadow */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); 
     max-width: 400px; 
     width: 100%; 
     display: flex; 
@@ -141,6 +141,10 @@ body{
   height: 300px;
   width: 200px;
   border: 2px solid black;
+  color: white;
+}
+.movie-card{
+  color: white;
 }
 .Shah{
   display: flex;
@@ -192,8 +196,32 @@ body{
   flex-wrap: wrap;
   background-color: black;
   color: white;
+  gap: 50px;
 }
 .Carousel img{
   height: 500px;
   width: 100%;
 }
+.singlenani {
+  display: flex;
+  flex-direction: column; 
+  justify-content: center; 
+  align-items: center; 
+  background-color: black;
+  height: 100vh;
+  color: white;
+  text-align: center;
+}
+.nuvu{
+  display: flex;
+  flex-direction: column;
+  justify-content: center; 
+  align-items: center; 
+  background-color: black;
+  height: 100vh;
+  color: white;
+  text-align: center;
+}
+
+
+

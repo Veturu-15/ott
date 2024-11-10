@@ -7,8 +7,7 @@ function PawanKalyanMoviesList() {
       <Header />
       <div className="PawanKalyanMoviesList">
         {PawanKalyanMovies.map((movie) => (
-          
-          <div key={movie.id} className="movie-card">
+          <div key={movie.id} className="movie-card"> 
             <h3>{movie.title}</h3>
             <img src={movie.Image} alt={`Poster of ${movie.title}`} />
             <p>Year: {movie.year}</p>

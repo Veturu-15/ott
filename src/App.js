@@ -14,6 +14,9 @@ import Shahrukhan from './pages/Shahrukhan';
 import Hindiheros from './pages/Hindiheros';
 import Amt from './pages/Amt';
 import Salman from './pages/Salman';
+import Singlenani from './Singlenani';
+import Ntrsingle from './pages/Ntrsingle';
+
 
 
 
@@ -30,7 +33,9 @@ function App() {
           <Route path='/maheshbabu' element={<Mahesh/>}/>
           <Route path='/prabhas' element={<Pras/>}/>
           <Route path='/ntr' element={<Newntr/>}/>
+          <Route path='/ntr/:id' element={<Ntrsingle/>}/>
           <Route path='/nani' element={<Newnani/>}/>
+          <Route path='/nani/:id' element={<Singlenani/>}/>
           <Route path='/hindi' element={<Hindiheros/>}/>
           <Route path='/shah' element={<Shahrukhan/>}/>
           <Route path='/amit' element={<Amt/>}/>
