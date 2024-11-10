@@ -11,7 +11,9 @@ function Newnani() {
         <div> 
          
           <img src={e.image} alt={e.title} /> 
+          <p>Title:{e.title}</p>
           <p>Year:{e.year}</p>
+          
         </div>
       ))}
     </div>

@@ -123,18 +123,19 @@ body{
 .navbar{
   background-color: white;
 }
-.Teluguheros{
+.Teluguheros {
   background-color: black;
   color: white;
-  height: 100vh;
+  min-height: 100vh; 
 }
+
 .Newnani{
   display: flex;
   flex-wrap: wrap;
   gap: 50px;
   background-color: black;
   color: white;
-  height: 100vh;
+  min-height: 100vh;
 }
 .Newnani img{
   height: 300px;
@@ -167,7 +168,7 @@ body{
 .Hindi {
   background-color: black;
   color: white;
-  height: 100vh;
+  min-height: 100vh;
   display: flex;
   flex-wrap: wrap;
   gap: 250px;
